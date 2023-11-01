@@ -1,5 +1,6 @@
 # server-based syntax
 # ======================
+server '3.82.53.252', user: 'ubuntu', roles: %w{web app db}
 # Defines a single server with a list of roles and multiple properties.
 # You can define all roles on a single server, or split them:
 
