@@ -42,11 +42,11 @@ server '3.82.53.252', user: 'ubuntu', roles: %w{web app db}
 #
 # Global options
 # --------------
-#  set :ssh_options, {
-#    keys: %w(/home/user_name/.ssh/id_rsa),
-#    forward_agent: false,
-#    auth_methods: %w(password)
-#  }
+  set :ssh_options, {
+    keys: ["/users/macbook/desktop/mang.pem"],
+    forward_agent: true,
+    auth_methods: ["publickey"]
+ }
 #
 # The server-based syntax can be used to override options:
 # ------------------------------------

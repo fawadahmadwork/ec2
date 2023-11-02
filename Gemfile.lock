@@ -79,8 +79,7 @@ GEM
       i18n
       rake (>= 10.0.0)
       sshkit (>= 1.9.0)
-    capistrano-
-     (2.1.0)
+    capistrano-bundler (2.1.0)
       capistrano (~> 3.1)
     capistrano-rails (1.6.3)
       capistrano (~> 3.1)
@@ -155,8 +154,6 @@ GEM
     net-ssh (7.2.0)
     nio4r (2.5.9)
     nokogiri (1.15.4-x86_64-darwin)
-      racc (~> 1.4)
-    nokogiri (1.15.4-x86_64-linux)
       racc (~> 1.4)
     pg (1.5.4)
     psych (5.1.1.1)
@@ -245,7 +242,6 @@ GEM
 
 PLATFORMS
   x86_64-darwin-19
-  x86_64-linux
 
 DEPENDENCIES
   bootsnap
